@@ -1,0 +1,25 @@
+{
+  "name": "test_server",
+  "version": "1.0.0",
+  "description": "serveur http pour api rest",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "server",
+    "http",
+    "api",
+    "rest"
+  ],
+  "author": "pach93",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.1",
+    "mysql": "^2.15.0",
+    "sequelize": "^3.30.4"
+  }
+}
